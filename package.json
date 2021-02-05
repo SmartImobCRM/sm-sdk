@@ -1,12 +1,12 @@
 {
   "name": "sm-sdk",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Kit de desenvolvimento feito para facilitar o processo de criar um algoritimo de migração de dados relacionados a imobiliarias.",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
     "build": "tsc",
-    "format": "prettier --write \"src/**/*.ts\" \"src/**/*.js\"",
+    "format": "prettier --write \"src/**/*.ts\"",
     "lint": "tslint -p tsconfig.json",
     "prepare": "npm run build",
     "prepublishOnly": "npm test && npm run lint",
